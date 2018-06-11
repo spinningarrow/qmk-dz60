@@ -71,12 +71,12 @@ uint32_t layer_state_set_user(uint32_t state) {
   switch (biton32(state)) {
     case F_KEYS:
       rgblight_mode(25); // static rainbow
-      rgblight_sethsv(174, 200, 100);
+      rgblight_sethsv(174, 200, 75);
       break;
 
     case F_APPLE:
       rgblight_mode(5); // breathe fast
-      rgblight_sethsv(174, 90, 50);
+      rgblight_sethsv(174, 90, 10);
       break;
 
     default:
