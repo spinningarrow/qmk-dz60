@@ -22,5 +22,6 @@
 // place overrides here
 #define TAPPING_TOGGLE 1
 #define RGBLIGHT_SLEEP
+#define TAPPING_TERM 200
 
 #endif
