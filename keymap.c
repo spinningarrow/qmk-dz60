@@ -70,13 +70,13 @@ void action_function(keyrecord_t *record, uint8_t id, uint8_t opt) {
 uint32_t layer_state_set_user(uint32_t state) {
   switch (biton32(state)) {
     case F_KEYS:
-      rgblight_mode(25); // static rainbow
-      rgblight_sethsv(174, 200, 75);
+      rgblight_mode(1);
+      rgblight_sethsv(90, 200, 75);
       break;
 
     case F_APPLE:
-      rgblight_mode(5); // breathe fast
-      rgblight_sethsv(174, 90, 10);
+      rgblight_mode(1);
+      rgblight_sethsv(30, 180, 80);
       break;
 
     default:
