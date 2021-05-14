@@ -1,4 +1,4 @@
-# qmk-dz60
+# spinz60
 
 The keymap for my DZ60.
 
